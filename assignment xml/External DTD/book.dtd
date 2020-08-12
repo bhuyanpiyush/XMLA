@@ -1,0 +1,16 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Book 
+
+<!ELEMENT Book (bid,Title,Author,Genre,Copyrightyear,BookE,ISBN,Publisher,price)>
+<!ELEMENT bid (#PCDATA)>
+<!ELEMENT Title (#PCDATA)>
+<!ELEMENT Author (#PCDATA)>
+<!ELEMENT Genre (#PCDATA)>
+<!ELEMENT Copyrightyear (#PCDATA)>
+<!ELEMENT BookE (#PCDATA)>
+<!ELEMENT ISBN (#PCDATA)>
+<!ELEMENT Publisher (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+
+>

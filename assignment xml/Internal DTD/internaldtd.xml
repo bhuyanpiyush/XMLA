@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<!DOCTYPE Book [
+<!ELEMENT Book (bid,Title,Author,Genre,Copyrightyear,BookE,ISBN,Publisher,price) >
+<!ELEMENT Title (#PCDATA)>
+<!ELEMENT Author (#PCDATA)>
+<!ELEMENT Genre (#PCDATA)>
+<!ELEMENT Copyrightyear (#PCDATA)>
+<!ELEMENT BookE (#PCDATA)>
+<!ELEMENT ISBN (#PCDATA)>
+<!ELEMENT Publisher (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+
+]>
+<Bookinginf>
+
+  <Book>
+  <Title>Wizard Of Oz</Title>
+  <Author>L. Frank Baum</Author>
+  <Genre>Adventure</Genre>
+  <Copyrightyear>1967</Copyrightyear>
+  <BookE>3</BookE>
+  <ISBN>4234323</ISBN>
+  <Publisher>George M. Hill Company</Publisher>
+  <price>15000</price>
+  </Book>
+
+  <Book>
+  <Title>Punnu Bihari</Title>
+  <Author>Charles Agnihotri</Author>
+  <Genre>Romcom</Genre>
+  <Copyrightyear>1989</Copyrightyear>
+  <BookE>1</BookE>
+  <ISBN>4234325</ISBN>
+  <Publisher>Rupa Publication</Publisher>
+  <price>1000</price>
+  </Book>
+
+  <Book>
+  <Title>The Adventures of Noddy</Title>
+  <Author>Enid Blyton</Author>
+  <Genre>Children</Genre>
+  <Copyrightyear>1974</Copyrightyear>
+  <BookE>12</BookE>
+  <ISBN>4234125</ISBN>
+  <Publisher>Penguin Publication</Publisher>
+  <price>1700</price>
+  </Book>
+
+  <Book>
+  <Title>Famous Five</Title>
+  <Author>Claude Voilier</Author>
+  <Genre>Adventure</Genre>
+  <Copyrightyear>1964</Copyrightyear>
+  <BookE>4</BookE>
+  <ISBN>1234325</ISBN>
+  <Publisher>Penguin Publication</Publisher>
+  <price>2000</price>
+  </Book>
+
+  <Book>
+  <Title>Harry Potter Chamber Of Secrets </Title>
+  <Author>J.K.Rowlin</Author>
+  <Genre>Fantasy Fiction</Genre>
+  <Copyrightyear>1964</Copyrightyear>
+  <BookE>4</BookE>
+  <ISBN>1234325</ISBN>
+  <Publisher>Penguin Publication</Publisher>
+  <price>2000</price>
+  </Book>
+
+
+</Bookinginf>
